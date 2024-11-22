@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px white;
+    background-color: green;
+    animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
